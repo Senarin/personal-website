@@ -15,14 +15,13 @@ z-index: 1;
 
 #about_page:after{
 background-image: url('/curtain_bg.png');
-background-size: 100%;
-background-repeat: no-repeat;
+top: 0;
+left: 0;
 background-attachment: fixed;
 background-position: absolute;
 opacity: 0.5 !important;
 filter: alpha(opacity=50);
 z-index: -1;
-content: "";
 width: 100%;
 height: 100%;
 }
