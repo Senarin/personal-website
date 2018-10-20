@@ -7,15 +7,25 @@ font-family: "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", "Malgun Gothic", sa
 line-height: 173%;
 }
 
-/*
-body{
-background: url('/curtain_bg.png') no-repeat;
-background-size: 100%;
-background-attachment: fixed;
-background-position: center; 
-}
-*/
 
+#about_page{
+position: relative;
+z-index: 1;
+}
+
+#about_page:after{
+background-image: url('/curtain_bg.png');
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: absolute;
+opacity: 0.5 !important;
+filter: alpha(opacity=50);
+z-index: -1;
+content: "";
+width: 100%;
+height: 100%;
+}
 
 a:link{
 color: #BB0011;
