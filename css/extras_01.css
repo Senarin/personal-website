@@ -7,7 +7,7 @@ font-family: "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", "Malgun Gothic", sa
 line-height: 173%;
 }
 
-body{background: url('curtain_bg.png') no-repeat;}
+body{background: url('/curtain_bg.png') no-repeat;}
 
 a:link{
 color: #BB0011;
