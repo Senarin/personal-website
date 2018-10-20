@@ -16,6 +16,7 @@ background-position: center;
 }
 */
 
+
 a:link{
 color: #BB0011;
 text-decoration: none;
@@ -45,57 +46,5 @@ height: 3.25em;
 border: 1px solid #000000;
 border-collapse: collapse;
 }
-
-.tablehead,.ldates{text-align: center;}
-
-.nonanniversaries{background-color: #AFAFAF;}
-
-#headtext{
-text-align: center;
-background-color: #AF8F5F;
-padding-top: 1em;
-padding-bottom: 1em;
-border-radius: 1em;
-}
-
-label{font-size: 80%;}
-
-#author_info,#recent_edit{
-text-align: right;
-padding-left: 0.5em;
-padding-right: 0.5em;
-font-size: 80%;
-}
-
-.list_voices,#list_anniversaries,#a_cinderella_girls,#a_million_stars,#a_315pro{
-width: 100%;
-padding: 1.5em;
-overflow: auto;
-}
-
-.table_anniversaries{margin: auto;}
-
-.idol_category{
-text-align: center;
-font-weight: bold;
-}
-
-.idol_list table,tr,td{
-text-align: center;
-height: 2.25em !important;
-}
-
-.cg_cute{color: #FF00FF;}
-.cg_cool{color: #0000FF;}
-.cg_passion{color: #FFC000;}
-
-
-#list_anniversaries ul{
-list-style-type: none;
-margin: 0;
-padding: 0.25em 0 0.25em 0;
-overflow: hidden;
-}
-
 
 input,select{font-family: "Nanum Gothic";}
