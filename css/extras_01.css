@@ -14,7 +14,7 @@ position: relative;
 z-index: 1;
 }
 
-#about_page:after{
+#about_page::after{
 position: absolute;
 z-index: -1;
 top: 0;
