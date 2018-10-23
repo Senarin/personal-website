@@ -50,17 +50,17 @@ color: #AAAAAA;
 text-decoration: none;
 }
 
-blockquote{
-font-family: "Courier New"
-}
+blockquote{font-family: "Courier New";}
 
 abbr{cursor: help;}
 
 table,tr,td{
 line-height: 173%;
 height: 3.25em;
-border: 1px solid #000000;
-border-collapse: collapse;
 }
 
-input,select{font-family: "Nanum Gothic";}
+td{
+border-bottom: 1px solid #C0FFEE;
+border-collapse: collapse;
+padding: 10px;
+}
