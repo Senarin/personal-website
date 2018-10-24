@@ -72,8 +72,8 @@ padding: 0.5em 1em;
 
 @media (max-width: 30em){
 
- table#list_profiles th,
- table#list_profiles td{padding: 0.5em;}
+ table.display th,
+ table.display td{padding: 0.5em;}
 
  table#list_profiles thead{display:none;}
 
