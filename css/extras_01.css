@@ -71,36 +71,31 @@ padding: 0.5em 1em;
 }
 
 @media (max-width: 30em){
+ #list_profiles,
+ #list_profiles thead,
+ #list_profiles tbody,
+ #list_profiles tr,
+ #list_profiles th,
+ #list_profiles td{display: block;}
 
- table.display th,
- table.display td{padding: 0.5em;}
-
- table#list_profiles thead{display:none;}
-
- table#list_profiles td:nth-child(1):before{content: "플랫폼/사이트명";}
- table#list_profiles td:nth-child(2):before{content: "ID";}
- table#list_profiles td:nth-child(3):before{content: "비고";}
-
- table#list_profiles td:nth-child(1),
- table#list_profiles td:nth-child(2),
- table#list_profiles td:nth-child(3){padding-left: 25%;}
-
-
- table#list_profiles td:nth-child(1):before,
- table#list_profiles td:nth-child(2):before,
- table#list_profiles td:nth-child(3):before{
-  font-weight: bold;
-  left: 0.5em;
+ #list_profiles thead tr{
   position: absolute;
+  display: none;
  }
-
-
- table#list_profiles tr,
- table#list_profiles td{display: block;}
-
- table#list_profiles tr{
-  margin-bottom: 1em;
+ #list_profiles tr:after{
+  content: "";
+  display: block;
+  clear: both;
+ }
+ #list_profiles td{
   position: relative;
+  float: left;
+  width: 100%;
+  padding-left: 50%;
+  box-sizing: border-box;
  }
 
+ #list_profiles .pnames{content: "플랫폼/사이트명";}
+ #list_profiles .unames{content: "ID";}
+ #list_profiles .useretc{content: "비고";}
 }
