@@ -94,7 +94,6 @@ padding: 0.5em 1em;
   position: relative;
   float: left;
   width: 100%;
-  padding-left: 50%;
   box-sizing: border-box;
  }
  #list_profiles td:before{
