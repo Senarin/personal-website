@@ -69,7 +69,10 @@ padding: 10px;
 
 @media (max-width: 30em){
 
- table#list_profiles th{display:none;}
+ table#list_profiles th,
+ table#list_profiles td{padding: 0.5em;}
+
+ table#list_profiles thead{display:none;}
 
  table#list_profiles td:nth-child(1):before{content: "플랫폼/사이트명";}
  table#list_profiles td:nth-child(2):before{content: "ID";}
@@ -88,9 +91,6 @@ padding: 10px;
   position: absolute;
  }
 
-
- table#list_profiles tr,
- table#list_profiles td{display: block;}
 
  table#list_profiles tr,
  table#list_profiles td{display: block;}
