@@ -66,3 +66,31 @@ padding: 10px;
 }
 
 #list_profiles{text-align: center;}
+
+@media (max-width: 30em){
+
+ table#list_profiles th{display:none;}
+
+ table#list_profiles td:nth-child(1){content: "플랫폼/사이트명";}
+ table#list_profiles td:nth-child(2){content: "ID";}
+ table#list_profiles td:nth-child(3){content: "비고";}
+
+ table#list_profiles td:nth-child(1),
+ table#list_profiles td:nth-child(2),
+ table#list_profiles td:nth-child(3){padding-left: 25%;}
+
+
+ table#list_profiles td:nth-child(1):before,
+ table#list_profiles td:nth-child(2):before,
+ table#list_profiles td:nth-child(3):before{
+ font-weight: bold;
+ left: 0.5em;
+ position: absolute;
+ }
+
+ table#list_profiles tr,
+ table#list_profiles td{display: block;}
+
+ table#list_profiles tr{position: relative;}
+
+}
