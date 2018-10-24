@@ -93,8 +93,8 @@ padding: 0.5em 1em;
  #list_profiles td{
   position: relative;
   float: left;
-  padding: 25%;
   width: 100%;
+  padding-left: 25%;
   box-sizing: border-box;
  }
  #list_profiles td:before{
