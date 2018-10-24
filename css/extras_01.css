@@ -94,8 +94,14 @@ padding: 0.5em 1em;
   padding-left: 50%;
   box-sizing: border-box;
  }
+ #list_profiles td:before{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-weight: bold;
+ }
 
- #list_profiles .pnames{content: "플랫폼/사이트명";}
- #list_profiles .unames{content: "ID";}
- #list_profiles .useretc{content: "비고";}
+ #list_profiles .pnames:before{content: "플랫폼/사이트명";}
+ #list_profiles .unames:before{content: "ID";}
+ #list_profiles .useretc:before{content: "비고";}
 }
