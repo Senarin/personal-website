@@ -9,20 +9,14 @@
 <link rel="stylesheet" type="text/css" href="/css/extras_01.css" />
 <link rel="stylesheet" type="text/css" href="/css/extras_02.css" />
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-<script type="text/javascript">
-<!--
-function set_avatar(){
- var r = parseInt(Math.random());
- document.getElementById("profile_image").src = "profile_"+r+".png";
-}
-//-->
-</script>
 </head>
 <body>
-<div id="about_page" onload="set_avatar();">
+<div id="about_page">
 
  <div id="profile_abstract" style="text-align: center; padding: 0.5em 3.5em 0.5em 3.5em; margin: auto;">
   <img id="profile_image" alt="Profile Image" style="width: 240px; height: auto; border-radius: 50%; margin: 0.5em;" /><br />
+  <script type="text/javascript">var r = parseInt(Math.random());document.getElementById("profile_image").src = "profile_"+r+".png";</script>
+  <noscript><img src="profile_0.png" id="profile_image" alt="Profile Image" style="width: 240px; height: auto; border-radius: 50%; margin: 0.5em;" /><br /></noscript>
   <b>아사카 (Asaka, あさか) aka. 꽃집아이돌 (花屋の歌姫)</b><br />
   <br />
   Male, 199X.6.29 출생
