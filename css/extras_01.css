@@ -68,6 +68,11 @@ border-collapse: collapse;
 padding: 10px;
 }
 
+#tweet_intro,#tweet_fieldmanuals,#tweet_interests,#tweet_others{
+width: 90%;
+margin: auto;
+}
+
 #list_profiles{
 text-align: center;
 padding: 0.5em 1em;

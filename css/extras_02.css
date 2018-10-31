@@ -1,29 +1,3 @@
-#date_list,#container_filter{
- padding: 0.5em;
- margin: auto;
- border: 1px solid #aaaaaa;
-}
-
-#view_month,#date_now{
- text-align: center;
- padding: 0.5em;
- margin: auto;
-}
-
-#date_list{
- text-shadow: 1px 1px #dddddd;
- list-style-type: none;
-}
-
-.date_today{background-color: #ffffdd;}
-
-mark{
- background-color: #a6efff;
- color: #000000;
- font-weight: bold;
- text-shadow: none;
-}
-
 .idol_cgcute{color: #db4f6a;}
 .idol_physical315{color: #ed1c24;}
 
