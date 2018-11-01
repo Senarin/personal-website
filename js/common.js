@@ -1,5 +1,3 @@
-
-
 function toggleVisiblities(id_element,is_inline){
 
  var eTarget = document.getElementById(id_element);
@@ -11,4 +9,9 @@ function toggleVisiblities(id_element,is_inline){
   else{eTarget.style.display = "block";}
  }
 
+}
+
+function openMailAddr(elem){
+ var mailaddr = elem.dataset.name +"@"+ elem.dataset.domain +"."+ elem.dataset.tld;
+ window.location.href = "mailto:"+ mailaddr;
 }

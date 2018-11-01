@@ -73,6 +73,8 @@ border-collapse: collapse;
 padding: 10px;
 }
 
+.a_mail:after{content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);}
+
 #tweet_intro,#tweet_fieldmanuals,#tweet_interests,#tweet_others{
 width: 90%;
 margin-left: auto;
