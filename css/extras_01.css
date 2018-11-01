@@ -70,8 +70,8 @@ padding: 10px;
 
 #tweet_intro,#tweet_fieldmanuals,#tweet_interests,#tweet_others{
 width: 95%;
-margin-left: 1em;
-margin-right: 1em;
+margin-left: auto;
+margin-right: 1.5em;
 }
 
 #list_profiles{
