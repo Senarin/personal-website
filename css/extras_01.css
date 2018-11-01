@@ -7,13 +7,10 @@ font-family: "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", "Malgun Gothic", sa
 line-height: 173%;
 }
 
-ul ul{margin-left: 0.75em;}
-ul ul ul{margin-left: 1.5em;}
-ul ul ul ul{margin-left: 2.25em;}
+ul ul,ol ol{margin-left: -0.25em;}
+ul ul ul,ol ol ol{margin-left: -0.5em;}
+ul ul ul ul,ol ol ol ol{margin-left: -0.75em;}
 
-ol ol{margin-left: 0.75em;}
-ol ol ol{margin-left: 1.5em;}
-ol ol ol ol{margin-left: 2.25em;}
 
 #about_page{
 width: 100%;
