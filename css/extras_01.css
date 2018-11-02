@@ -3,8 +3,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 
-*{font-family: "Nanum Gothic" !important;}
-*{font-family: "Jeju Gothic" !important;}
+*{font-family: "Nanum Gothic", "Jeju Gothic" !important;}
 *{font-family: sans-serif;}
 
 body,h1,h2,h3,h4,h5,h6{line-height: 173%;}
