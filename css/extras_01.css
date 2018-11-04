@@ -1,9 +1,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 
-*{font-family: "Noto Sans KR", "Noto Sans JP", "Jeju Gothic", "Nanum Gothic", sans-serif;}
+*{font-family: "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", "Malgun Gothic", sans-serif;}
 
 body,h1,h2,h3,h4,h5,h6{line-height: 173%;}
 
