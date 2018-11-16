@@ -148,7 +148,7 @@ margin-right: auto;
   position: relative;
   float: left;
   width: 100%;
-  text-align: right;
+  text-align: center;
   box-sizing: border-box;
  }
  #d_signature td:before{
