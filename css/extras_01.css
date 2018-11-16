@@ -84,11 +84,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#list_profiles,#d_signature{
-text-align: center;
-padding: 0.5em 1em;
-margin: 1em auto !important;
-}
+#list_profiles,#d_signature{text-align: center;}
 
 @media (max-width: 45em){
  #list_profiles,
