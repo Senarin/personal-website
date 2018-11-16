@@ -76,10 +76,7 @@ padding: 10px;
 .a_mail:after{content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);}
 
 #pgp_fingerprint{
- border: 1px solid #000000;
- width: 80%;
- margin: auto;
- padding: 0.5em 1em 0.5em 1em;
+ padding: 0 1em;
  text-align: center;
  overflow: auto;
 }
