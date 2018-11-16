@@ -99,7 +99,7 @@ margin-right: auto;
   display: none;
  }
  #list_profiles tr:after{
-  content: "";
+  content: "-";
   display: block;
   clear: both;
  }
