@@ -126,8 +126,6 @@ margin: 1em auto !important;
   margin-top: 1em;
  }
 
- #list_profiles table:after{margin-bottom: 1em;}
-
  #list_profiles .pnames:before{content: "플랫폼/사이트명";}
  #list_profiles .unames:before{content: "ID";}
  #list_profiles .useretc:before{content: "비고";}
