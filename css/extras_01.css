@@ -78,7 +78,8 @@ padding: 10px;
 .key64{color: #0000FF;}
 
 #pgp_fingerprint{
- width: 45em;
+ width: 90vw;
+ margin: auto;
  overflow: auto;
 }
 
