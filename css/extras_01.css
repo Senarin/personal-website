@@ -102,8 +102,6 @@ padding: 0.5em 1em;
  #list_profiles th,
  #list_profiles td{display: block;}
 
- #list_profiles{margin-bottom: 2em;}
-
  #list_profiles thead tr{
   position: absolute;
   display: none;
