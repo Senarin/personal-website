@@ -110,6 +110,7 @@ padding: 0.5em 1em;
   content: "";
   display: block;
   clear: both;
+  margin-bottom: 0.5em;
  }
  #list_profiles td{
   position: relative;
