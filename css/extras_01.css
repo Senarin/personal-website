@@ -170,9 +170,9 @@ padding: 0.5em 1em;
   border-top: 2px solid #000000;
   margin-top: 1em;
  }
- #list_profiles .ctype:before{content: "범주";}
- #list_profiles .ccontent:before{content: "내용";}
 
+ #d_signature .ctype:before{content: "범주";}
+ #d_signature .ccontent:before{content: "내용";}
 }
 
 
