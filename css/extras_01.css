@@ -109,7 +109,7 @@ padding: 0.5em 1em;
  #list_profiles tr:after{
   content: "";
   display: block;
-  clear: both;
+  clear: none;
  }
  #list_profiles td{
   position: relative;
