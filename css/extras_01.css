@@ -82,6 +82,7 @@ padding: 10px;
 }
 
 #pgp_fingerprint{
+ width: 100%;
  margin: auto;
  text-align: center;
  overflow: auto;
