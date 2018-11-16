@@ -77,6 +77,11 @@ padding: 10px;
 
 .key64{color: #0000FF;}
 
+#pgp_fingerprint{
+ width: 45em;
+ overflow: auto;
+}
+
 #tweet_intro,#tweet_fieldmanuals,#tweet_interests,#tweet_others{
 width: 90%;
 margin-left: auto;
