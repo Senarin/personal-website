@@ -75,13 +75,18 @@ padding: 10px;
 
 .a_mail:after{content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);}
 
-.key64{color: #0000FF;}
+#d_signature{
+ width: 20em;
+ margin: auto;
+ text-align: center;
+}
 
 #pgp_fingerprint{
- width: 90vw;
  margin: auto;
  overflow: auto;
 }
+
+.key64{color: #0000FF;}
 
 #tweet_intro,#tweet_fieldmanuals,#tweet_interests,#tweet_others{
 width: 90%;
