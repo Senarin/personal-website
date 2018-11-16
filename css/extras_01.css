@@ -73,8 +73,6 @@ border-collapse: collapse;
 padding: 10px;
 }
 
-.display{margin-bottom: 2.5em;}
-
 .a_mail:after{content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);}
 
 #pgp_fingerprint{
