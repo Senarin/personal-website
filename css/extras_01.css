@@ -76,7 +76,7 @@ padding: 10px;
 .a_mail:after{content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);}
 
 #d_signature{
- width: 33em;
+ width: 100%;
  margin: auto;
  text-align: center;
 }
