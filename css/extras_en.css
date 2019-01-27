@@ -14,11 +14,6 @@ height: 100%;
 position: relative;
 }
 
-#aboutme_details{
-width: 100%;
-display: none;
-}
-
 a:link{
 color: #BB0011;
 text-decoration: none;
