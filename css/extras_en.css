@@ -14,6 +14,11 @@ height: 100%;
 position: relative;
 }
 
+#aboutme_details{
+width: 100%;
+display: none;
+}
+
 @media only screen and (orientation: landscape){
  body{
   width: 90vw;
