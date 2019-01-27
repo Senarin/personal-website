@@ -13,8 +13,9 @@ ul ul ul ul,ol ol ol ol{margin-left: -2.4em;}
 
 
 #about_page{
-width: 100%;
+width: 95%;
 height: 100%;
+margin: auto;
 position: relative;
 }
 
