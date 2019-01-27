@@ -11,13 +11,11 @@ ul ul ul ul,ol ol ol ol{margin-left: -2.4em;}
 #about_page{
 width: 100%;
 height: 100%;
-margin: auto;
 position: relative;
 }
 
 #aboutme_details{
-width: 95%;
-margin: auto;
+width: 100%;
 display: none;
 }
 
