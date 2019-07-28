@@ -1,9 +1,8 @@
 var eName = "list_profiles";
 
 function toggleAccountList(){
- toggleVisiblities("show_list_profiles",1,0);
- toggleVisiblities("hide_list_profiles",1,0);
+ toggleVisiblities("show_list_profiles","inline-block");
+ toggleVisiblities("hide_list_profiles","inline-block");
 
- toggleVisiblities(eName,0,1);
- document.getElementById(eName).style.margin = "auto";
+ toggleVisiblities(eName,"initial");
 }
