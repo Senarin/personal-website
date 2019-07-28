@@ -93,7 +93,7 @@ text-align: center;
  #list_profiles td{
   position: relative;
   float: left;
-  margin: auto;
+  left: 50%;
   width: 85%;
   text-align: right;
   box-sizing: border-box;
@@ -135,7 +135,7 @@ text-align: center;
  #d_signature td{
   position: relative;
   float: left;
-  margin: auto;
+  left: 50%;
   width: 100%;
   text-align: center;
   box-sizing: border-box;
