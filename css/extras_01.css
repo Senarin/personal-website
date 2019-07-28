@@ -79,10 +79,7 @@ text-align: center;
  #list_profiles tbody,
  #list_profiles tr,
  #list_profiles th,
- #list_profiles td{
-  display: block;
-  margin: auto;
- }
+ #list_profiles td{display: block;}
 
  #list_profiles thead tr{
   position: absolute;
@@ -96,6 +93,7 @@ text-align: center;
  #list_profiles td{
   position: relative;
   float: left;
+  margin: auto;
   width: 85%;
   text-align: right;
   box-sizing: border-box;
@@ -123,10 +121,7 @@ text-align: center;
  #d_signature tbody,
  #d_signature tr,
  #d_signature th,
- #d_signature td{
-  display: block;
-  margin: auto;
- }
+ #d_signature td{display: block;}
 
  #d_signature thead tr{
   position: absolute;
@@ -140,6 +135,7 @@ text-align: center;
  #d_signature td{
   position: relative;
   float: left;
+  margin: auto;
   width: 85%;
   text-align: center;
   box-sizing: border-box;
