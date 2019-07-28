@@ -5,4 +5,5 @@ function toggleAccountList(){
  toggleVisiblities("hide_list_profiles",1,0);
 
  toggleVisiblities(eName,0,1);
+ document.getElementById(eName).style.margin = "auto";
 }
