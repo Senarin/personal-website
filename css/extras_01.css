@@ -93,8 +93,8 @@ text-align: center;
  #list_profiles td{
   position: relative;
   float: left;
-  left: 5%;
-  width: 90%;
+  left: 10%;
+  width: 80%;
   text-align: right;
   box-sizing: border-box;
  }
