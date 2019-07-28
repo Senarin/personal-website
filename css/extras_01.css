@@ -68,7 +68,10 @@ margin-right: auto;
 
 #tweet_follow{text-align: center;}
 
-#list_profiles,#d_signature{text-align: center;}
+#list_profiles,#d_signature{
+font-size: 0.85em;
+text-align: center;
+}
 
 @media (max-width: 45em){
  #list_profiles,
