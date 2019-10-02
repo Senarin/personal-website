@@ -7,8 +7,6 @@ font-family: "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", sans-serif !importa
 line-height: 173%;
 }
 
-ul,ol{list-style-type: none;}
-
 ul ul,ol ol{margin-left: -0.8em;}
 ul ul ul,ol ol ol{margin-left: -1.6em;}
 ul ul ul ul,ol ol ol ol{margin-left: -2.4em;}
