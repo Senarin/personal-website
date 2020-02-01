@@ -14,8 +14,8 @@ function toggleGamingList(){
 }
 
 function toggleLovesList(){
- toggleVisiblities("show_list_gaming","inline-block");
- toggleVisiblities("hide_list_gaming","inline-block");
+ toggleVisiblities("show_list_loves","inline-block");
+ toggleVisiblities("hide_list_loves","inline-block");
 
- toggleVisiblities("games_userinfo","initial");
+ toggleVisiblities("fav_charas","initial");
 }
