@@ -77,44 +77,46 @@
   </div>
 
   <h3 class="w3-center w3-padding-large">#Gaming: 게임 아이디 및 플레이 현황</h3>
-  <span id="show_list_gaming">[<a href="javascript:;" onclick="toggleGamingList();">목록 펼치기</a>]</span>
-  <span id="hide_list_gaming" style="display: none;">[<a href="javascript:;" onclick="toggleGamingList();">목록 숨기기</a>]</span>
-  <br />
-  <div id="games_userinfo" style="padding: 0.5em; margin: auto; text-align: center;">
-   <ul style="list-style-type: none; width: 25em; margin: 0.5em auto 0.5em; padding: 0;overflow: hidden; border: 1px solid #000000;">
-    <li style="display: block; padding: 0.5em 1em;"><div style="text-align: center;"><b>게임 아이디 (아이마스 계열)</b></div></li>
-   </ul>
-
-   <b><a href="https://cinderella.idolmaster.jp/sl-stage/">데레스테(스타라이트 스테이지)</a></b>: <a href="https://deresute.me/408267419">408267419</a> (시작일 : 2016.5.20, <a href="https://cinderella.pro/user/6875/FloristPrincess/">상세 프로필</a>, <a href="https://aidoru.info/view/A6U87T68PPJKU5NQ">상세 계정정보</a>)<br />
-   <b><a href="https://cinderella.idolmaster.jp/">모바마스(신데렐라 걸즈 모바게)</a></b>: <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fprofile%2Fshow%2F139434230%3Fl_frm%3DTop_index_1%26rnd%3D865609095" title="모바일에서만 유효합니다">139434230</a> (시작일 : 2017년 4월 초, <a href="https://imcg.pink-check.school/producer/detail/139434230">상세정보 [日]</a>)<br />
-   <b>밀리시타(시어터 데이즈)</b>: 6SN4VPYL (<a href="https://millionlive.idolmaster.jp/theaterdays/">일본판</a>, 시작일 : 2017.6.29) / AAVBH4Y5 (<a href="https://millionlive.idolmaster.jp/theaterdays-kr/">한국판</a>, 시작일 : 2019.8.30)<br />
-   <b><a href="https://shinycolors.idolmaster.jp/">샤니마스(샤이니 컬러즈)</a></b>: 가끔 플레이함 (시작일 : 2018년 4월 하순)<br />
-   <del>그리마스(밀리언 라이브 GREE판): 800000000000101844</del> (시작일 : 2017.2.13, <b>2018.3.19 서비스 종료</b>, <a href="http://imas-ml.hamaco.org/producer/800000000000101844">보존된 상세정보 [日]</a>)<br />
-   <del>엠스테(라이브 온 스테이지): 안함</del><br />
-   <a href="https://side-m.idolmaster.jp/">SideM(모바게)</a>: 1069660 (가끔 플레이함)<br />
+  <div id="list_gaming" style="text-align: center;">
+   <span id="show_list_gaming">[<a href="javascript:;" onclick="toggleGamingList();">목록 펼치기</a>]</span>
+   <span id="hide_list_gaming" style="display: none;">[<a href="javascript:;" onclick="toggleGamingList();">목록 숨기기</a>]</span>
    <br />
-   <ul style="list-style-type: none; width: 25em; margin: 0.5em auto 0.5em; padding: 0;overflow: hidden; border: 1px solid #000000;">
-    <li style="display: block; padding: 0.5em 1em;"><div style="text-align: center;"><b>게임 아이디 (기타)</b></div></li>
-   </ul>
+   <div id="games_userinfo" style="padding: 0.5em; margin: auto; text-align: center; display: none; margin: auto;">
+    <ul style="list-style-type: none; width: 25em; margin: 0.5em auto 0.5em; padding: 0;overflow: hidden; border: 1px solid #000000;">
+     <li style="display: block; padding: 0.5em 1em;"><div style="text-align: center;"><b>게임 아이디 (아이마스 계열)</b></div></li>
+    </ul>
+
+    <b><a href="https://cinderella.idolmaster.jp/sl-stage/">데레스테(스타라이트 스테이지)</a></b>: <a href="https://deresute.me/408267419">408267419</a> (시작일 : 2016.5.20, <a href="https://cinderella.pro/user/6875/FloristPrincess/">상세 프로필</a>, <a href="https://aidoru.info/view/A6U87T68PPJKU5NQ">상세 계정정보</a>)<br />
+    <b><a href="https://cinderella.idolmaster.jp/">모바마스(신데렐라 걸즈 모바게)</a></b>: <a href="http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fprofile%2Fshow%2F139434230%3Fl_frm%3DTop_index_1%26rnd%3D865609095" title="모바일에서만 유효합니다">139434230</a> (시작일 : 2017년 4월 초, <a href="https://imcg.pink-check.school/producer/detail/139434230">상세정보 [日]</a>)<br />
+    <b>밀리시타(시어터 데이즈)</b>: 6SN4VPYL (<a href="https://millionlive.idolmaster.jp/theaterdays/">일본판</a>, 시작일 : 2017.6.29) / AAVBH4Y5 (<a href="https://millionlive.idolmaster.jp/theaterdays-kr/">한국판</a>, 시작일 : 2019.8.30)<br />
+    <b><a href="https://shinycolors.idolmaster.jp/">샤니마스(샤이니 컬러즈)</a></b>: 가끔 플레이함 (시작일 : 2018년 4월 하순)<br />
+    <del>그리마스(밀리언 라이브 GREE판): 800000000000101844</del> (시작일 : 2017.2.13, <b>2018.3.19 서비스 종료</b>, <a href="http://imas-ml.hamaco.org/producer/800000000000101844">보존된 상세정보 [日]</a>)<br />
+    <del>엠스테(라이브 온 스테이지): 안함</del><br />
+    <a href="https://side-m.idolmaster.jp/">SideM(모바게)</a>: 1069660 (가끔 플레이함)<br />
+    <br />
+    <ul style="list-style-type: none; width: 25em; margin: 0.5em auto 0.5em; padding: 0;overflow: hidden; border: 1px solid #000000;">
+     <li style="display: block; padding: 0.5em 1em;"><div style="text-align: center;"><b>게임 아이디 (기타)</b></div></li>
+    </ul>
   
-   <a href="https://store.steampowered.com/"><b>스팀</b></a>: <span class="fa fa-steam-square"></span> <a href="https://steamcommunity.com/id/EternalBloomRin">EternalBloomRin</a> (<a href="https://steamdb.info/calculator/76561198281151281/"><b>계정 통계</b></a>)<br />
-   <a href="https://www.ubisoft.com/">유비소프트 ID</a>: OverMyself_Rin<br />
-   뱅드림! 걸즈 밴드 파티: 102240374 (<a href="https://bang-dream.bushimo.jp/">일본판</a>, <a href="https://bandori.party/user/6080/sayonara_andromeda/">상세 정보</a>) / 58247 (<a href="http://bangdream.kakaogame.com/web/main.html">한국판</a>, 가끔 플레이함)<br />
-   프린세스 커넥트 리다이브: 없음 (<a href="https://priconne-redive.jp/">일본판</a>) / 578721997148 (<a href="http://priconne.kakaogame.com/">한국판</a>)<br />
-   <a href="https://granbluefantasy.jp/">그랑블루 판타지</a>: 16580168 (거의 안함)<br />
-   <br />
-   <ul style="list-style-type: none; width: 25em; margin: 0.5em auto 0.5em; padding: 0;overflow: hidden; border: 1px solid #000000;">
-    <li style="display: block; padding: 0.5em 1em;"><div style="text-align: center;"><b>플레이 현황</b></div></li>
-   </ul>
-
-   <div id="gameplays_now" style="text-align: center;">
-    <b>[스타라이트 스테이지]</b><br />
-    <div id="starlight_stage_pf" style="text-align: center; overflow: auto;"><img src="https://deresute.me/408267419/small" alt="데레스테 프로필" /></div>
-    [<a href="https://cinderella.pro/user/6875/FloristPrincess/">상세 플레이 현황은 여기로 (영문)</a>]
+    <a href="https://store.steampowered.com/"><b>스팀</b></a>: <span class="fa fa-steam-square"></span> <a href="https://steamcommunity.com/id/EternalBloomRin">EternalBloomRin</a> (<a href="https://steamdb.info/calculator/76561198281151281/"><b>계정 통계</b></a>)<br />
+    <a href="https://www.ubisoft.com/">유비소프트 ID</a>: OverMyself_Rin<br />
+    뱅드림! 걸즈 밴드 파티: 102240374 (<a href="https://bang-dream.bushimo.jp/">일본판</a>, <a href="https://bandori.party/user/6080/sayonara_andromeda/">상세 정보</a>) / 58247 (<a href="http://bangdream.kakaogame.com/web/main.html">한국판</a>, 가끔 플레이함)<br />
+    프린세스 커넥트 리다이브: 없음 (<a href="https://priconne-redive.jp/">일본판</a>) / 578721997148 (<a href="http://priconne.kakaogame.com/">한국판</a>)<br />
+    <a href="https://granbluefantasy.jp/">그랑블루 판타지</a>: 16580168 (거의 안함)<br />
     <br />
-    <br />
-    <b>[스팀]</b><br />
-    <div id="steam_pf" style="text-align: center; overflow: auto;"><a href="https://steamcommunity.com/id/EternalBloomRin"><img src="https://steamsignature.com/profile/koreana/76561198281151281.png" alt="Steam" /></a></div>
+    <ul style="list-style-type: none; width: 25em; margin: 0.5em auto 0.5em; padding: 0;overflow: hidden; border: 1px solid #000000;">
+     <li style="display: block; padding: 0.5em 1em;"><div style="text-align: center;"><b>플레이 현황</b></div></li>
+    </ul>
+ 
+    <div id="gameplays_now" style="text-align: center;">
+     <b>[스타라이트 스테이지]</b><br />
+     <div id="starlight_stage_pf" style="text-align: center; overflow: auto;"><img src="https://deresute.me/408267419/small" alt="데레스테 프로필" /></div>
+     [<a href="https://cinderella.pro/user/6875/FloristPrincess/">상세 플레이 현황은 여기로 (영문)</a>]
+     <br />
+     <br />
+     <b>[스팀]</b><br />
+     <div id="steam_pf" style="text-align: center; overflow: auto;"><a href="https://steamcommunity.com/id/EternalBloomRin"><img src="https://steamsignature.com/profile/koreana/76561198281151281.png" alt="Steam" /></a></div>
+    </div>
    </div>
   </div>
   
