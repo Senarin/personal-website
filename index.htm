@@ -32,7 +32,46 @@
  </div>
 
  <hr style="width: 100%; height: 2px;" />
-
+ 
+  <div id="aboutme_details"> 
+  <h3 class="w3-center w3-padding-large">연락처 및 각 플랫폼/사이트별 프로필 목록</h3>
+  <div id="list_accounts" style="text-align: center;">
+   <span id="show_list_profiles">[<a href="javascript:;" onclick="toggleAccountList();">목록 펼치기</a>]</span>
+   <span id="hide_list_profiles" style="display: none;">[<a href="javascript:;" onclick="toggleAccountList();">목록 숨기기</a>]</span>
+   <br />
+   <table class="display" id="list_profiles" style="display: none; margin: auto;">
+    <thead><tr><th width="30%"><b>플랫폼/사이트명</b></th><th width="40%"><b>ID</b></th><th width="30%"><b>비고</b></th></tr></thead>
+    <tbody>
+     <tr><td class="pnames">메일</td><td class="unames"><span class="material-icons" style="font-size: 0.8em;">mail</span> <a data-name="themapside" data-domain="gmail" data-tld="com" class="a_mail" href="javascript:;" onclick="openMailAddr(this);"></a></td><td class="useretc">구글</td></tr>
+     <tr><td class="pnames">메일</td><td class="unames"><span class="material-icons" style="font-size: 0.8em;">mail</span> <a data-name="themunyang21" data-domain="naver" data-tld="com" class="a_mail" href="javascript:;" onclick="openMailAddr(this);"></a></td><td class="useretc">네이버</td></tr>
+     <tr><td class="pnames">메일</td><td class="unames"><span class="material-icons" style="font-size: 0.8em;">mail</span> <a data-name="aobamisaki" data-domain="kakao" data-tld="com" class="a_mail" href="javascript:;" onclick="openMailAddr(this);"></a></td><td class="useretc">카카오</td></tr>
+     <tr><td class="pnames">인스타그램</td><td class="unames"><span class="fa fa-instagram"></span> <a href="https://www.instagram.com/rinlove.yukina/">@rinlove.yukina</a></td><td class="useretc">-</td></tr>
+     <tr><td class="pnames">텀블러</td><td class="unames"><span class="fa fa-tumblr-square"></span> <a href="http://hanaya-production.tumblr.com/">hanaya-production</a></td><td class="useretc">-</td></tr>
+     <tr><td class="pnames">GitHub(깃헙)</td><td class="unames"><span class="fa fa-github"></span> <a href="https://github.com/Senarin">Senarin</a></td><td class="useretc"><a href="https://gist.github.com/Senarin">Gist 프로필</a></td></tr>
+     <tr><td class="pnames">스팀</td><td class="unames"><span class="fa fa-steam-square"></span> <a href="https://steamcommunity.com/id/EternalBloomRin">EternalBloomRin</a></td><td class="useretc"><a href="https://steamdb.info/calculator/76561198281151281/">계정 통계</a></td></tr>
+     <tr><td class="pnames">Keybase</td><td class="unames"><a href="https://keybase.io/senarin">senarin</a></td><td class="useretc">-</td></tr>
+     <!-- 구글플러스 19.4.2 서비스 종료 -->
+     <tr><td class="pnames">사운드클라우드</td><td class="unames"><span class="fa fa-soundcloud"></span> <a href="https://soundcloud.com/eternalbloom346">eternalbloom346</a></td><td class="useretc">-</td></tr>
+     <tr><td class="pnames">믹스클라우드</td><td class="unames"><span class="fa fa-mixcloud"></span> <a href="https://www.mixcloud.com/OverMyself346/">OverMyself346</a></td><td class="useretc">-</td></tr>
+     <tr><td class="pnames">레딧(Reddit)</td><td class="unames"><span class="fa fa-reddit"></span> <a href="https://www.reddit.com/user/senarin837">senarin837</a></td><td class="useretc">거의 쓰지 않음</td></tr>
+     <tr><td class="pnames">디스코드(Discord)</td><td class="unames">Yukina#6092</td><td class="useretc">개인 연락처</td></tr>
+     <tr><td class="pnames">텔레그램(Telegram)</td><td class="unames"><span class="fa fa-telegram"></span> <a href="https://t.me/senarin">senarin</a></td><td class="useretc">개인 연락처</td></tr>
+     <tr><td class="pnames">카카오톡(KakaoTalk)</td><td class="unames">minshara1013</td><td class="useretc">개인 연락처</td></tr>
+     <tr><td class="pnames">라인(LINE)</td><td class="unames">minshara1013</td><td class="useretc">개인 연락처</td></tr>
+     <tr><td class="pnames">네이버/다음</td><td class="unames">themunyang21</td><td class="useretc">개인 연락처</td></tr>
+     <tr><td class="pnames">Mastodon</td><td class="unames"><a href="https://twingyeo.kr/@Shiburin_Hazuki">@Shiburin_Hazuki@twingyeo.kr</a></td><td class="useretc">한국어</td></tr>
+     <tr><td class="pnames">Mastodon</td><td class="unames"><a href="https://planet.moe/@sayonara_andromeda">@sayonara_andromeda@planet.moe</a></td><td class="useretc">한국어</td></tr>
+     <tr><td class="pnames">StackExchange</td><td class="unames"><span class="fa fa-stack-exchange"></span> <a href="https://stackexchange.com/users/8332688/asaka">8332688</a></td><td class="useretc">거의 쓰지 않음</td></tr>
+     <tr><td class="pnames">XDA-Developers</td><td class="unames"><a href="https://forum.xda-developers.com/member.php?u=7408730">Senarin</a></td><td class="useretc">거의 쓰지 않음</td></tr>
+     <tr><td class="pnames">Listography</td><td class="unames"><a href="https://listography.com/soniavidbleim">soniavidbleim</a></td><td class="useretc">-</td></tr>
+     <tr><td class="pnames">포스퀘어(Foursquare)</td><td class="unames"><span class="fa fa-foursquare"></span> 45351070</td><td class="useretc">-</td></tr>
+     <tr><td class="pnames">Medium</td><td class="unames"><span class="fa fa-medium"></span> <a href="https://medium.com/@eternalbloom346">@eternalbloom346</a></td><td class="useretc">-</td></tr>
+     <tr><td class="pnames">Velog</td><td class="unames"><a href="https://velog.io/@aobamisaki">@aobamisaki</a></td><td class="useretc">-</td></tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+ 
  <div id="powered_by" style="padding: 0.5em 1.5em 0.5em 1.5em; font-size: 0.85em; margin: auto; text-align: center;">
  (C) 2018 Hanaya(하나야), All rights reserved. (다른 언급이 없는 한 이 사이트의 내용들은 <a href="/LICENSE">MIT 사용 허가서</a>에 명시된 사항에 따라 배포됩니다.)<br />
  이 사이트는 GitHub(깃헙)에 <a href="https://github.com/Senarin/personal-website">올려진 내용</a>을 바탕으로 <a href="https://www.netlify.com/">Netlify</a>에서 호스팅되고 있습니다.
