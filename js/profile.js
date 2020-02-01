@@ -12,3 +12,10 @@ function toggleGamingList(){
 
  toggleVisiblities("games_userinfo","initial");
 }
+
+function toggleLovesList(){
+ toggleVisiblities("show_list_gaming","inline-block");
+ toggleVisiblities("hide_list_gaming","inline-block");
+
+ toggleVisiblities("games_userinfo","initial");
+}
