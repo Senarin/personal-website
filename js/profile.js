@@ -3,7 +3,6 @@ function toggleAccountList(){
  toggleVisiblities("hide_list_profiles","inline-block");
 
  toggleVisiblities("list_profiles","initial");
- toggleVisiblities("discord_widget","block");
 }
 
 
