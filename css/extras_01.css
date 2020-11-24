@@ -29,6 +29,11 @@ font-size: 1.5em;
 text-align: center;
 }
 
+#discord_widget{
+margin: auto;
+text-align: center;
+}
+
 a:link{
 color: #BB0011;
 text-decoration: none;
