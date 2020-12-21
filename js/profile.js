@@ -5,7 +5,6 @@ function toggleAccountList(){
  toggleVisiblities("list_profiles","initial");
 }
 
-
 function toggleGamingList(){
  toggleVisiblities("show_list_gaming","inline-block");
  toggleVisiblities("hide_list_gaming","inline-block");
@@ -18,4 +17,11 @@ function toggleLovesList(){
  toggleVisiblities("hide_list_loves","inline-block");
 
  toggleVisiblities("fav_charas","initial");
+}
+
+function toggleFavsList(){
+ toggleVisiblities("show_list_favs","inline-block");
+ toggleVisiblities("hide_list_favs","inline-block");
+
+ toggleVisiblities("fav_featured","initial");
 }
