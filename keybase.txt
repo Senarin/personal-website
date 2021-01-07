@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/senarin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yukina.kr
+  * I am senarin (https://keybase.io/senarin) on keybase.
+  * I have a public key ASAb4VjKVtphyh6Sgya2Uz9M0SRJ432s6vkfTU69qh5Nugo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a728e1ce2f446fc3434902b7b0ee319b717b5dfce0c60113f26b6c591cb603740a",
+      "host": "keybase.io",
+      "kid": "01201be158ca56da61ca1e928326b6533f4cd12449e37daceaf91f4d4ebdaa1e4dba0a",
+      "uid": "f5cf256b0c261b4d0303ac71b5105819",
+      "username": "senarin"
+    },
+    "merkle_root": {
+      "ctime": 1610028039,
+      "hash": "dd0e23e7c1aab248ea65e032e117de514a5e8044c0970f022672e650a4a0839eafff6ea390cd61d33fbaac037928b8688287f25fceedf3c6c8d0d0ca7e31e28c",
+      "hash_meta": "f836cb3a938f948db6a798be2494e639f39389d43239d98ae02424aaa2541081",
+      "seqno": 18626317
+    },
+    "service": {
+      "entropy": "3xoi9TTz7ygzyi3995lrey96",
+      "hostname": "yukina.kr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1610028051,
+  "expire_in": 504576000,
+  "prev": "96264b5a130355254ef5d9e47d6d3db10c830d9664c30f44a96c47902937d6c6",
+  "seqno": 248,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgG+FYylbaYcoekoMmtlM/TNEkSeN9rOr5H01OvaoeTboKp3BheWxvYWTES5cCzPjEIJYmS1oTA1UlTvXZ5H1tPbEMgw2WZMMPRKlsR5ApN9bGxCAXfyidEP8bE8SoVSZWF6n244zVTdYV/Ts+b9qmMDtFaAIBwqNzaWfEQGNrZ3g17tckhgrAoXVL3ZRsWnv8oISLIA8cIL/4ZVFrFLJ6Lf+p92nQZ13ljQmzyFHFw8aGLI3B5KG8aj7drQCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCVLCaecDKaUkYWxPytHgr7bS9OKy2/xfuBA5xpxfnHMaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/senarin
+
+==================================================================
