@@ -100,9 +100,17 @@ margin-right: auto;
   margin-top: 1em;
  }
 
- .profiles_table .pnames:before{content: "プラットフォーム";}
- .profiles_table .unames:before{content: "ID";}
- .profiles_table .useretc:before{content: "備考";}
+ #list_profiles .pnames:before{content: "プラットフォーム";}
+ #list_profiles .unames:before{content: "ID";}
+ #list_profiles .useretc:before{content: "備考";}
+
+ #list_games_i .pnames:before{content: "タイトル";}
+ #list_games_i .unames:before{content: "ID";}
+ #list_games_i .useretc:before{content: "備考";}
+
+ #list_games_e .pnames:before{content: "タイトル";}
+ #list_games_e .unames:before{content: "ID";}
+ #list_games_e .useretc:before{content: "備考";}
 }
 
 @media (max-width: 45em){
