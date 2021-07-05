@@ -62,7 +62,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#list_profiles,#d_signature{text-align: center;}
+#list_profiles,#list_games_i,#list_games_e,#d_signature{text-align: center;}
 
 @media (max-width: 45em){
  #list_profiles,
