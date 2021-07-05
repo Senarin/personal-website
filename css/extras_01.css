@@ -71,29 +71,29 @@ padding: 10px;
 
 .key64{color: #0000FF;}
 
-#list_profiles,#list_games_i,#list_games_e,#d_signature{
+.profiles_table,#d_signature{
 font-size: 0.85em;
 text-align: center;
 }
 
 @media (max-width: 45em){
- #list_profiles,
- #list_profiles thead,
- #list_profiles tbody,
- #list_profiles tr,
- #list_profiles th,
- #list_profiles td{display: block;}
+ .profiles_table,
+ .profiles_table thead,
+ .profiles_table tbody,
+ .profiles_table tr,
+ .profiles_table th,
+ .profiles_table td{display: block;}
 
- #list_profiles thead tr{
+ .profiles_table thead tr{
   position: absolute;
   display: none;
  }
- #list_profiles tr:after{
+ .profiles_table tr:after{
   content: "";
   display: block;
   clear: both;
  }
- #list_profiles td{
+ .profiles_table td{
   position: relative;
   float: left;
   left: 10%;
@@ -101,21 +101,21 @@ text-align: center;
   text-align: right;
   box-sizing: border-box;
  }
- #list_profiles td:before{
+ .profiles_table td:before{
   position: absolute;
   left: 10px;
   top: 10px;
   font-weight: bold;
  }
 
- #list_profiles .pnames{
+ .profiles_table .pnames{
   border-top: 2px solid #000000;
   margin-top: 1em;
  }
 
- #list_profiles .pnames:before{content: "플랫폼/사이트명";}
- #list_profiles .unames:before{content: "ID";}
- #list_profiles .useretc:before{content: "비고";}
+ .profiles_table .pnames:before{content: "플랫폼/사이트명";}
+ .profiles_table .unames:before{content: "ID";}
+ .profiles_table .useretc:before{content: "비고";}
 }
 
 @media (max-width: 45em){
