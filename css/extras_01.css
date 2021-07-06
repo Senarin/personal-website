@@ -115,7 +115,7 @@ text-align: center;
 
  #list_profiles .pnames:before{content: "플랫폼/사이트명";}
  #list_profiles .unames:before{content: "ID";}
- #list_profiles .useretc:before{content: "Notes";}
+ #list_profiles .useretc:before{content: "비고";}
 
  #list_games_i .pnames:before{content: "게임/플랫폼명";}
  #list_games_i .unames:before{content: "ID";}
