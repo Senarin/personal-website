@@ -113,9 +113,17 @@ text-align: center;
   margin-top: 1em;
  }
 
- .profiles_table .pnames:before{content: "플랫폼/사이트명";}
- .profiles_table .unames:before{content: "ID";}
- .profiles_table .useretc:before{content: "비고";}
+ #list_profiles .pnames:before{content: "플랫폼/사이트명";}
+ #list_profiles .unames:before{content: "ID";}
+ #list_profiles .useretc:before{content: "Notes";}
+
+ #list_games_i .pnames:before{content: "게임/플랫폼명";}
+ #list_games_i .unames:before{content: "ID";}
+ #list_games_i .useretc:before{content: "비고";}
+
+ #list_games_e .pnames:before{content: "게임/플랫폼명";}
+ #list_games_e .unames:before{content: "ID";}
+ #list_games_e .useretc:before{content: "비고";}
 }
 
 @media (max-width: 45em){
